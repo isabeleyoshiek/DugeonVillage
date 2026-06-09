@@ -13,7 +13,7 @@ Projeto desenvolvido em Linguagem C.
 - Sistema de chave e porta
 - Primeira masmorra
 
-##simbolos
+## simbolos
 -'^' jogador, esse simbolo altera a depender da posição/direção/movimento feito dentro da matriz
 -'w' movimento de subida, sempre que for chamado esse simbolo o jogador irá realizar um movimento de subida
 -'s'movimento de descida, sempre que for chamado esse simbolo o jogador irá descer
@@ -27,13 +27,13 @@ Projeto desenvolvido em Linguagem C.
 -'C' indica o cajado
 -'O' indica o botão
 -'K' indica as caixas
-##como jogar
+## como jogar
 -movimentação:possui um laço 'if' onde a cada escolhe dos simbolos acima, o jogador realiza um movimento
 -ataques:possui um laço 'if' também onde o botão realiza 6 ações, onde vai de abertura de passagens até ataques
 -os ataques são realizados de acordo com as casas da matriz e baseados na posição original do jogador e dos objetos ao redor
 -para conseguir chegar a certos objetivos o jogador deve interagir com a fadinha e com o NPC.
 
-##uso da IA
+## uso da IA
 -a IA foi ultilizada apenas como meio de auxilio e também como um meio de correção dos erros do código, nada além disso.
 segue o link do chat : https://chatgpt.com/share/6a27bd35-bd64-83e9-822d-8cb0b126b947
 
