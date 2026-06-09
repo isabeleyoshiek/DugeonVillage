@@ -16,7 +16,7 @@ Projeto desenvolvido em Linguagem C.
 ## simbolos
 - '^' jogador, esse simbolo altera a depender da posição/direção/movimento feito dentro da matriz
 - 'w' movimento de subida, sempre que for chamado esse simbolo o jogador irá realizar um movimento de subida
- - s'movimento de descida, sempre que for chamado esse simbolo o jogador irá descer
+- 's'movimento de descida, sempre que for chamado esse simbolo o jogador irá descer
 - 'a'movimento de deslocamento para a esquerda,sempre que for chamado esse simbolo o jogador irá para a esquerda
 - 'd' movimento de deslocamento para a direita, sempre que for chamado esse simbolo o jogador irá para a direita
 - '@' indica a chave que irá auxiliar na abertura da porta
@@ -28,9 +28,12 @@ Projeto desenvolvido em Linguagem C.
 - 'O' indica o botão
 - 'K' indica as caixas
 ## como jogar
-- movimentação:possui um laço 'if' onde a cada escolhe dos simbolos acima, o jogador realiza um movimento
+- movimentação:possui um laço 'if' onde a cada escolha dos simbolos acima, o jogador realiza um movimento, onde ele pode subir,descer, ir para a direita e para a esquerda.
 - ataques:possui um laço 'if' também onde o botão realiza 6 ações, onde vai de abertura de passagens até ataques
-- os ataques são realizados de acordo com as casas da matriz e baseados na posição original do jogador e dos objetos ao redor
+- os ataques são realizados de acordo com as casas da matriz e baseados na posição original do jogador e dos objetos ao redor(As armas de ataque são as seguintes: Espada,Arco e flecha e Cajado)
+- a espada ataca 2x3 casas acima do jogador
+- o arco e flecha ataca 4 casas a frente do jogador
+- o cajado ataca um quadrado ao redor do jogador
 - para conseguir chegar a certos objetivos o jogador deve interagir com a fadinha e com o NPC.
 
 ## uso da IA
