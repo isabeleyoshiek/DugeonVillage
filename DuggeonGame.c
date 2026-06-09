@@ -43,7 +43,7 @@ scanf("%d", &r);
 			printf("\n");
 		}
 		char R;
-		printf("Fadinha: Querido(a) jogador(a), siga-me até a loja do ferreiro, precisamos escolher uma arma pra você\n");
+		printf("Fadinha: Querido(a) jogador(a), siga-me atÃ© a loja do ferreiro, precisamos escolher uma arma pra vocÃª\n");
 		printf("Ferreiro:Ola jogador(a), eu sou o ferreiro da vila e dono desse estabelecimento, voce deseja comprar uma arma aqui no 'Mortes Sangrentas'?(S/N)");
 		scanf(" %c", &R);
 		if(R=='S' || R=='s')
@@ -71,24 +71,24 @@ scanf("%d", &r);
 			if(escolha=='C')
 			{
 				arma='C';
-				printf("Ferreiro:Distrubua muitas cajadadas por aí meu jovem! Boa aventura para voce!\n");
+				printf("Ferreiro:Distrubua muitas cajadadas por aÃ­ meu jovem! Boa aventura para voce!\n");
 				printf("Narrador: Parabens jogador, sua arm agora eh:%c\n", arma);
 			}
 			
 		}
 		
-		printf("Fadinha: Que otimo! Vi que ja escolheu sua arma, posso saber qual é?");
-		printf("minha arma é essa:%c\n", arma);
+		printf("Fadinha: Que otimo! Vi que ja escolheu sua arma, posso saber qual Ã©?");
+		printf("minha arma Ã© essa:%c\n", arma);
 		printf("Fadinha: Que boa escolha! Isso ira ser muit util a voce!\n");
-		printf("Mas agora, preste bastante atençao, temos que ser rapidos.Voce deve me seguir ate a entrada da masmorra!\n");
+		printf("Mas agora, preste bastante atenÃ§ao, temos que ser rapidos.Voce deve me seguir ate a entrada da masmorra!\n");
 		printf("Mas Fadinha, voce ira me guiar pela masmorra ou na entrada nos iremos dizer adeus?\n");
 		printf("Fadinha:Nao, jamais vou deixa-lo(a) por ai,nos seremos amigos(as) agora, serei sua guia nesta brava aventura!\n");
-		printf("Fadinha:Vamos, a escada é logo ali\n");
-		printf("Narrador: Jogador, chegou a hora de se movimentar!, Aqui estão os movimentos permitidos a você:\n");
-		printf("'w'-move você para cima\n");
-		printf("'s'-move você para baixo\n");
-		printf("'a'-move você para a esquerda\n");
-		printf("'d'-move você para a direita\n");
+		printf("Fadinha:Vamos, a escada Ã© logo ali\n");
+		printf("Narrador: Jogador, chegou a hora de se movimentar!, Aqui estÃ£o os movimentos permitidos a vocÃª:\n");
+		printf("'w'-move vocÃª para cima\n");
+		printf("'s'-move vocÃª para baixo\n");
+		printf("'a'-move vocÃª para a esquerda\n");
+		printf("'d'-move vocÃª para a direita\n");
 		printf("Agora , esoclha qual movimento deseja fazer:\n");
 		
 		
@@ -529,7 +529,7 @@ scanf("%d", &r);
 	scanf(" %c", &resposta);
 	if(resposta=='S' || resposta=='s')
 	{
-		printf("Que otima noticia, para avançar de nivel, por favor pegue  a chave e abra a porta");
+		printf("Que otima noticia, para avanÃ§ar de nivel, por favor pegue  a chave e abra a porta");
 		scanf(" %c", &botao);
 	
 	if(botao=='O')
@@ -589,11 +589,11 @@ scanf("%d", &r);
 		scanf("%d", &escolha);
 		if(escolha==1)
 		{
-			printf("Caro(a) jogador(a), nesta sessão irei lhe explicar o que cada simbolo que voce vera significa, a fim de que voce tenha uma boa experiencia e nao fique perdido\n");
+			printf("Caro(a) jogador(a), nesta sessÃ£o irei lhe explicar o que cada simbolo que voce vera significa, a fim de que voce tenha uma boa experiencia e nao fique perdido\n");
 			printf("Caso se depare com isso '*' saiba que eh uma parede, logo nao eh possivel ultrapassar\n");
 			printf("Caso se depare com isso '#', saiba que eh um espinho, se voce tentar passar por ele, voce morre\n");
-			printf("Caso se depare com isso 'k', saiba que eh uma caixa, ela não pode ser ultrappasada mas pode ser destruida com ataques");
-			printf("Caso se depare com isso '@', saiba que eh uma chave e ela abre as portas fechadas quando ha interaçao com ela\n");
+			printf("Caso se depare com isso 'k', saiba que eh uma caixa, ela nÃ£o pode ser ultrappasada mas pode ser destruida com ataques");
+			printf("Caso se depare com isso '@', saiba que eh uma chave e ela abre as portas fechadas quando ha interaÃ§ao com ela\n");
 			printf("Caso se depare com isso 'D', indica que eh uma porta fechada e so pode ser aberta se voce tiver uma chave\n");
 			printf("Caso se depare com isso '=', indica que a porta esta aberta e voce pode passar por ela\n");
 			printf("Caso se depare com isso 'L', indica que voce achou uma escada, suba ela e isso lhe levara para o proximo nivel\n");
@@ -604,19 +604,19 @@ scanf("%d", &r);
         if(escolha==2)
 		{
 			printf("Jogador(a), agora irei lhe introduzir a historia da sua missao.");
-			printf("Durante muitos anos, os moradores de Dugeon Village sao atormentados por monstros ferozes que os caçam e matam, ano apos ano a vida dessas pessoas eh assim.\n");
-			printf("Como se espera de um bravo(a) guerreiro(a) voce deverá enfrentar esses monstros e passar por todos os perigos que o/a esperam, mas lembre-se: evite perigos desnecessários, lute com bravura e o mais importante, livre essas pessoas das garras brutais dessas feras\n"); 
+			printf("Durante muitos anos, os moradores de Dugeon Village sao atormentados por monstros ferozes que os caÃ§am e matam, ano apos ano a vida dessas pessoas eh assim.\n");
+			printf("Como se espera de um bravo(a) guerreiro(a) voce deverÃ¡ enfrentar esses monstros e passar por todos os perigos que o/a esperam, mas lembre-se: evite perigos desnecessÃ¡rios, lute com bravura e o mais importante, livre essas pessoas das garras brutais dessas feras\n"); 
 		    
 		}   
 		if(escolha==3)
 		{
-			printf("o botao 'O' faz as seguintes funçoes abaixo:\n");
-			printf("Primeira funçao:Abrir uma passagem secreta\n");
-			printf("Segunda funçao:Adicionar espinhos ao mapa\n");
-			printf("Terceira funçao:Ativar armadilhas\n");
-			printf("Quarta funçao:Invocar novos monstros\n");
-			printf("Quinta funçao:Remover uma barreira bloqueando o caminho\n");
-			printf("Sexta funçao: Abrir a porta com auxilio da chave\n");
+			printf("o botao 'O' faz as seguintes funÃ§oes abaixo:\n");
+			printf("Primeira funÃ§ao:Abrir uma passagem secreta\n");
+			printf("Segunda funÃ§ao:Adicionar espinhos ao mapa\n");
+			printf("Terceira funÃ§ao:Ativar armadilhas\n");
+			printf("Quarta funÃ§ao:Invocar novos monstros\n");
+			printf("Quinta funÃ§ao:Remover uma barreira bloqueando o caminho\n");
+			printf("Sexta funÃ§ao: Abrir a porta com auxilio da chave\n");
 		}
 	}  
 	
